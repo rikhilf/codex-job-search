@@ -4,6 +4,8 @@
 
 # AI Job Search
 
+> Codex fork: start with [CODEX_SETUP.md](CODEX_SETUP.md) for the Codex workflow. The upstream Claude Code instructions below are retained for comparison and updates.
+
 *The job search that runs on your machine.*
 
 <p align="center">
