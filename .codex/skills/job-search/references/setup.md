@@ -1,11 +1,7 @@
 # Candidate Setup
 
-Read `.claude/commands/setup.md` for upstream intake modes and evaluation preferences. Adapt it as follows:
+Read `.claude/commands/setup.md` and preserve its three intake paths: documents folder, single CV import, or interview. Ask the user which path to use, as the original procedure specifies. The sibling `../resume-system/master_experience.md`, when available, can be offered as an additional source document without copying it into this public fork.
 
-1. Read `../resume-system/master_experience.md` as the initial source when available. Its `PRIVATE:` lines are strategy notes and `VERIFY:` lines are unconfirmed. Do not copy the file into tracked content.
-2. Otherwise read supplied career documents or ask for missing high-impact facts. Do not ask for facts already available.
-3. Save confirmed additions and preferences to ignored `private/candidate.md`. Mark uncertain facts `needs verification` and retain source attribution.
-4. Record role targets, locations, constraints, and search terms privately. Favor evidenced early-career software, data, AI, and platform roles. Never import upstream sample identity or goals.
-5. Check conflicting dates, metrics, titles, and proficiencies. Ask about material conflicts; omit unsupported claims.
+Apply one privacy substitution: write confirmed candidate facts and preferences to ignored `private/candidate.md` rather than filling tracked `CLAUDE.md` or `.claude/skills/**` with personal data. Keep source attribution and mark unconfirmed details for verification. Do not import the upstream example candidate's identity or goals.
 
-Replace upstream writes to `CLAUDE.md` and tracked `.claude/skills/` files with the private file. Do not run the original setup command verbatim. Summarize readiness and remaining confirmations.
+For changes to tracked methodology or templates that contain no personal data, follow the original procedure. Finish with its confirmation summary and identify any unresolved conflicts.

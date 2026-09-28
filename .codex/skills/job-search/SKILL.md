@@ -13,4 +13,4 @@ Read `AGENTS.md` and [runtime.md](references/runtime.md). Select the requested o
 | Tailor a resume or prepare an application | [apply.md](references/apply.md) |
 | Search, rank, outcomes, interview, upskill, reports, templates, portals, sync, reset | [other-workflows.md](references/other-workflows.md) |
 
-Use the current user request as input. Keep the upstream sequence where useful, while applying this fork's private-profile and one-page technical-resume rules.
+Use the current user request as input. Follow the upstream sequence, with only the Codex tool and public-fork privacy substitutions described in the references.
